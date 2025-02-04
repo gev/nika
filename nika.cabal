@@ -57,10 +57,11 @@ executable nika
   -- other-extensions:
   -- Other library packages from which modules are imported.
   build-depends:
-    base ^>=4.20.0.0,
+    base ^>=4.19.0.0,
     parsec,
+    mtl,
 
   -- Directories containing source files.
   hs-source-dirs: app
   -- Base language which the package is written in.
-  default-language: GHC2024
+  default-language: GHC2021
